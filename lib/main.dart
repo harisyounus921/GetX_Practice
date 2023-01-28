@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
       locale: const Locale('en','US'),
       fallbackLocale: const Locale('en','US'),
       theme: ThemeData(
+        useMaterial3: true,
         primarySwatch: Colors.deepPurple,
       ),
       home: const homeScreen(),
